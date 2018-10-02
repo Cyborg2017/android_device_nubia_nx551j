@@ -20,6 +20,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/nubia/nx551j/nx551j-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/xiaomi/mido
+
 # Audio
 PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
