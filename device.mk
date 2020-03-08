@@ -21,7 +21,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product-if-exists, vendor/nubia/nx551j/nx551j-vendor.mk)
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/xiaomi/mido
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 # Audio
 PRODUCT_COPY_FILES +=  \
