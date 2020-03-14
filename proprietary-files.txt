@@ -274,6 +274,7 @@ lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
 lib64/libfp_client.so:vendor/lib64/libfp_client.so
 lib64/libfpservice.so:vendor/lib64/libfpservice.so
+vendor/lib64/libbindergx.so
 
 # Touchscreen
 etc/firmware/nubia_tp_1302_jdi_fw.img:vendor/firmware/nubia_tp_1302_jdi_fw.img
