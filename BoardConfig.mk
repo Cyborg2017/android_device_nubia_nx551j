@@ -24,8 +24,8 @@ TARGET_OTA_ASSERT_DEVICE := nx551j,NX551J
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
-
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := mokee_nx551j_defconfig
 
 # MoKee Hardware
