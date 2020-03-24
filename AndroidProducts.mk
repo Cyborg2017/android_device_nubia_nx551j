@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nx551j.mk
+    $(LOCAL_DIR)/mokee_nx551j.mk
