@@ -35,7 +35,7 @@ export DEVICE_BRINGUP_YEAR=2020
 DEVICE_BLOB_ROOT="$MK_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.nubia
 patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/bin/gx_fpd
-patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/lib64/hw/fingerprint.default.so
+patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/lib64/hw/fingerprint.msm8953.so
 patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/lib64/libfp_client.so
 patchelf --replace-needed libbinder.so libbindergx.so "$DEVICE_BLOB_ROOT"/vendor/lib64/libfpservice.so
 
